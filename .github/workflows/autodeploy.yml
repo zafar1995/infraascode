@@ -41,7 +41,7 @@ jobs:
           # Provide the name of a resource group, only required for resource Group deployments.
           resourceGroupName: MyResourceGroup 
           # Specify the path or URL to the Azure Resource Manager template.
-          template: ../../Template.json
+          template: ./Template.json
           # Incremental (only add resources to resource group) or Complete (remove extra resources from resource group) or Validate (only validates the template).
           deploymentMode: Incremental
           # Specifies the name of the resource group deployment to create.
