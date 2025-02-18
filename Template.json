@@ -14,7 +14,7 @@
     "variables": {},
     "resources": [
         {
-            "name": "[concat('stgacc',uniqueString(resourceGroup().id))]",
+            "name": "[concat('stgaccount',uniqueString(resourceGroup().id))]",
             "type": "Microsoft.Storage/storageAccounts",
             "condition": "[parameters('env')]",
             "apiVersion": "2023-05-01",
