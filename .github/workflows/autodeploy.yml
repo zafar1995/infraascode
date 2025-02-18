@@ -39,7 +39,7 @@ jobs:
           template: ./Template.json
           deploymentMode: Incremental
           deploymentName: GithubDeployment
-          parameters: env=true
+          parameters: env=false
 
           
       
